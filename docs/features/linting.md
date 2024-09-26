@@ -69,6 +69,7 @@ ignore = [
 Two typechecking options are available, `mypy` or `pyright`.
 
 ## mypy
+
 [mypy](https://mypy.readthedocs.io/en/stable/) can be used for static type checking, and its configuration and can be edited in `pyproject.toml`.
 
 ```toml
@@ -98,7 +99,6 @@ typeCheckingMode = "strict"
 venvPath = "."
 venv = ".venv"
 ```
-
 
 # deptry
 
